@@ -21,7 +21,6 @@
 #define pipii pair<int, pii>
 #define mib map<int, bool>
 #define ll long long
-#define l long
 #define spii stack<pii>
 #define vpii vector<pii>
 #define fi first
