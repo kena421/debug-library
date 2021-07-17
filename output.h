@@ -95,5 +95,34 @@ void print(stack<T> s){
     cout<<endl;
 }
 
+template <typename T>
+void print(queue<T> q){
+    while(!q.empty()){
+        cout<<q.front()<<" ";
+        q.pop();
+    }
+    cout<<endl;
+}
+
+template <typename T>
+void print(priority_queue<T> pq){
+    while(!pq.empty()){
+        cout<<pq.top()<<" ";
+        pq.pop();
+    }
+    cout<<endl;
+}
+
+template <typename T>
+void print(priority_queue<T, vector<T>, greater<T>> pq){
+    while(!pq.empty()){
+        cout<<pq.top()<<" ";
+        pq.pop();
+    }
+    cout<<endl;
+}
+
+
+
 
 #endif
